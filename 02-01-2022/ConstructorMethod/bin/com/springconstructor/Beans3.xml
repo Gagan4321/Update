@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="student" class="com.methodconstructor.Student">
+        <constructor-arg name="studentName" value="Gagan gowda VS" />
+        <constructor-arg name="studentId" value="10" />
+        <constructor-arg name="studentAge" value="18" />
+        </bean>
+        
+         <bean id="uchiha" class="com.methodconstructor.Student">
+        <constructor-arg name="studentName" value="Itachi Uchiha" />
+        <constructor-arg name="studentId" value="22" />
+        <constructor-arg name="studentAge" value="22" />
+        </bean>
+        
+        <bean id="stuid" class="com.methodconstructor.Student" >
+        <constructor-arg name="studentId" value="66" />
+        
+        
+        </bean>
+        
+</beans>
